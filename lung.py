@@ -128,8 +128,8 @@ if st.button("🔍 군집 분석하기", use_container_width=True):
         marker='*'
     )
 
-    ax.set_xlabel("흡연량")
-    ax.set_ylabel("음주량")
-    ax.set_title("군집 시각화")
+    ax.set_xlabel("흡연량", fontproperties=fontprop)
+    ax.set_ylabel("음주량", fontproperties=fontprop)
+    ax.set_title("군집 시각화", fontproperties=fontprop)
 
     st.pyplot(fig)
