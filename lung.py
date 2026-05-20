@@ -2,9 +2,14 @@ import streamlit as st
 import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 
-# 한글 설정
-plt.rcParams['font.family'] = 'arial'
+# 현재 폴더의 폰트 사용
+font_path = "./arial.ttf"
+
+fontprop = fm.FontProperties(fname=font_path)
+
+plt.rcParams['font.family'] = fontprop.get_name()
 plt.rcParams['axes.unicode_minus'] = False
 
 # =========================
