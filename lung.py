@@ -4,7 +4,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 # 한글 설정
-plt.rcParams['font.family'] = 'NanumGothic'
+plt.rcParams['font.family'] = 'arial'
 plt.rcParams['axes.unicode_minus'] = False
 
 # =========================
