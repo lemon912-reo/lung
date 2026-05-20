@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
 # 현재 폴더의 폰트 사용
-font_path = "./arial.ttf"
+font_path = "./malgun.ttf"
 
 fontprop = fm.FontProperties(fname=font_path)
 
