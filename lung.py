@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
 
-font_path = "C:/Windows/Fonts/malgun.ttf"
-font_name = fm.FontProperties(fname=font_path).get_name()
-
-plt.rc('font', family=font_name)
+# 한글 설정
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 # =========================
